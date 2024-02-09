@@ -1,6 +1,5 @@
 package io.javabrains.javabasics;
 
-import java.util.Arrays;
 
 public class JavaVariables {
 
