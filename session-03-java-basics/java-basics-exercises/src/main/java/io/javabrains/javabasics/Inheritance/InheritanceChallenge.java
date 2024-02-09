@@ -1,4 +1,4 @@
-package io.javabrains.javabasics;
+package io.javabrains.javabasics.Inheritance;
 
 /*
 
@@ -14,7 +14,21 @@ package io.javabrains.javabasics;
 
 public class InheritanceChallenge {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+            // Create an array of Animal objects
+            Animal[] animals = new Animal[4];
+            animals[0] = new Animal("Lion", 5);
+            animals[1] = new Dog("Buddy", 3, "Golden Retriever");
+            animals[2] = new Cat("Whiskers", 2, 9);
+            animals[3] = new Animal("Elephant", 10);
 
+            // Loop through the array and print details of each animal
+            for (Animal animal : animals) {
+                System.out.println("Name: " + animal.getName());
+                System.out.println("Age: " + animal.getAge());
+                animal.makeSound(); // Polymorphic method invocation
+                System.out.println();
+            }
+        }
     }
-}
+

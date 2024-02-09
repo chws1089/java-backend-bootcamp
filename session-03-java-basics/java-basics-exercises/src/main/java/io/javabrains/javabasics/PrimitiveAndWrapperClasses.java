@@ -11,6 +11,7 @@ public class PrimitiveAndWrapperClasses {
 
         // Step 3: Print the values of the wrapper objects
         System.out.println("ageObj = " + ageObj);
+        System.out.println(ageObj.equals(age));
 
         // Step 4: Convert wrapper objects back to primitive variables
         age=ageObj;

@@ -43,6 +43,5 @@ public class ArrayChallenge {
             System.out.println("element = " + element);
 
 
-
     }
 }

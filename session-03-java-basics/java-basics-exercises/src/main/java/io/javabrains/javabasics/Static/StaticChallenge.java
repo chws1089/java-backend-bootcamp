@@ -1,4 +1,4 @@
-package io.javabrains.javabasics;
+package io.javabrains.javabasics.Static;
 
 /*
 Create a class `Rectangle` with the following attributes: `width`, `height`, and a static variable `numOfRectangles` which will keep track of the number of rectangles created.
@@ -13,6 +13,27 @@ Create a class `Rectangle` with the following attributes: `width`, `height`, and
 public class StaticChallenge {
 
     public static void main(String[] args) {
+
+        Rectangle rectangle1 = new Rectangle(5.0, 4.0);
+        Rectangle rectangle2 = new Rectangle(3.0, 6.0);
+        Rectangle rectangle3 = new Rectangle(7.0, 2.0);
+        Rectangle rectangle4 = new Rectangle(3.0, 6.0);
+        Rectangle rectangle5 = new Rectangle(7.0, 2.0);
+
+        double area = rectangle1.getArea();
+        int nums = Rectangle.getNumOfRectangles();
+        double perimeter = rectangle1.getPerimeter();
+        System.out.println("perimeter = " + perimeter);
+        System.out.println("nums = " + nums);
+        System.out.println("area = " + area);
+
+        Rectangle rectangle6 = new Rectangle(3.0, 6.0);
+        Rectangle rectangle7 = new Rectangle(7.0, 2.0);
+
+        // Retrieve the updated number of rectangles
+        nums = Rectangle.getNumOfRectangles();
+        System.out.println("nums = " + nums);
+
 
     }
 }
