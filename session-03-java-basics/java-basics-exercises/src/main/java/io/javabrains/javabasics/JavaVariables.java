@@ -1,5 +1,7 @@
 package io.javabrains.javabasics;
 
+import java.util.Arrays;
+
 public class JavaVariables {
 
     public static void main(String[] args) {
@@ -33,6 +35,7 @@ public class JavaVariables {
         System.out.println("age = " + age);
         System.out.println("num = " + num);
         System.out.println("doubleNum = " + doubleNum);
+        System.out.println("floatNum = " + numFloat);
 
 
         // Step 3: Modify the values of the variables and print the updated values
