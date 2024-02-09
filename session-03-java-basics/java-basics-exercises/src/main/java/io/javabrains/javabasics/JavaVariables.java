@@ -36,6 +36,11 @@ public class JavaVariables {
 
 
         // Step 3: Modify the values of the variables and print the updated values
+        age = age + 10;
+        System.out.println("new age = " + age);
+        double area = Math.pow(doubleNum, 2) * 3.14;
+        System.out.println("area = " + area);
+
 
     }
 }
